@@ -1,0 +1,22 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Segoe UI', sans-serif; background: #f5f5f5; color: #333; }
+.header { background-color: #c0392b; color: white; padding: 16px 24px; display: flex; justify-content: space-between; align-items: center; }
+.header h1 { font-size: 1.3rem; }
+.header button { background: white; color: #c0392b; border: none; padding: 8px 18px; border-radius: 8px; font-weight: bold; cursor: pointer; font-size: 0.9rem; transition: background 0.2s; }
+.header button:hover { background: #f0f0f0; }
+.resumo { display: flex; gap: 16px; padding: 20px 24px; flex-wrap: wrap; }
+.card { background: white; border-radius: 12px; padding: 16px 24px; flex: 1; min-width: 150px; text-align: center; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+.card h3 { font-size: 2rem; color: #c0392b; }
+.card p { font-size: 0.85rem; color: #777; margin-top: 4px; }
+.tabela-container { padding: 0 24px 24px; overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+thead { background-color: #c0392b; color: white; }
+th, td { padding: 12px 14px; text-align: left; font-size: 0.88rem; border-bottom: 1px solid #f0f0f0; }
+tr:hover { background-color: #fff5f5; }
+select { padding: 6px 10px; border-radius: 6px; border: 1px solid #ddd; font-size: 0.85rem; cursor: pointer; }
+.badge { padding: 4px 10px; border-radius: 20px; font-size: 0.78rem; font-weight: bold; white-space: nowrap; }
+.badge.recebido { background: #d6eaf8; color: #1a5276; }
+.badge.em-preparo { background: #fdebd0; color: #784212; }
+.badge.saiu { background: #d5f5e3; color: #1e8449; }
+.badge.entregue { background: #eafaf1; color: #145a32; }
+.badge.cancelado { background: #fadbd8; color: #922b21; }

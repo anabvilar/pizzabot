@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Painel Admin — Pizza Bot</title>
+<link rel="stylesheet" href="/static/css/admin.css">
+</head>
+<body>
+<div class="header">
+<h1> 📊 Pizza Bot — Painel de Pedidos</h1>
+<button id="btnAtualizar">↻ Atualizar Manual</button>
+</div>
+<div class="resumo" id="resumo"></div>
+<div class="tabela-container">
+<table id="tabelaPedidos">
+<thead>
+<tr>
+<th>#</th>
+<th>Cliente</th>
+<th>Telefone</th>
+<th>Endereço</th>
+<th>Tamanho</th>
+<th>Sabor</th>
+<th>Borda</th>
+<th>Observações</th>
+<th>Status</th>
+<th>Data/Hora</th>
+<th>Ação</th>
+</tr>
+</thead>
+<tbody id="corpoPedidos"></tbody>
+</table>
+</div>
+<script src="/static/js/admin.js"></script>
+</body>
+</html>

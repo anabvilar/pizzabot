@@ -84,7 +84,7 @@ def chat():
     mensagem_usuario = dados.get("mensagem", "")
     historico = session.get("historico", [])
 
-    historico.append({"role": "user", "content": mensaje_usuario})
+    historico.append({"role": "user", "content": mensagem_usuario})
 
     resposta = client.chat.completions.create(
         model=os.getenv("AZURE_OPENAI_DEPLOYMENT_NAME"), 
